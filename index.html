@@ -7,6 +7,7 @@
         <link rel='icon' href='images/favicon.ico'>
         <link rel='stylesheet' href='styles.css'>
         <link rel='preload' as='image' href='images/me.png'>
+        <script src='pages.js' defer></script>
     </head>
     <body>
         <header>
@@ -15,10 +16,36 @@
                     Clément
                 </h1>
             </div>
-            <img src='images/me.png' alt='picture of me' width=29% class='spin-image' align=center>
+            <img id='boo' src='images/me.png' alt='picture of me' width=29% class='spin-image' align=center>
         </header>
         <p>
-            Hi!  I'm Clément, a student at Stanford working towards a B.S. in Mathematics and an M.S. in Computer Science.  I'm currently concentrating in networking and systems with a view to working in computer security.  I also love to dance!  Check out my projects and photos...once they make their way on here.
+            Hi!  I'm Clément, a student at Stanford working towards a B.S. in Mathematics and an M.S. in Computer Science.  I'm currently concentrating in networking and systems hoping to work in computer security.  I also love to dance!  Check out my projects and photos...once they make their way on here.
         </p>
+        <nav>
+            <span class='selected'>
+                Courses
+            </span>
+            <span>
+                Dance
+            </span>
+            <span>
+                Photos
+            </span>
+            <span>
+                Projects
+            </span>
+        </nav>
+        <div id='courses'>
+            courses boo
+        </div>
+        <div id='dance' class='hidden'>
+            dance boo
+        </div>
+        <div id='photos' class='hidden'>
+            photos boo
+        </div>
+        <div id='projects' class='hidden'>
+            projects boo
+        </div>
     </body>
 </html>

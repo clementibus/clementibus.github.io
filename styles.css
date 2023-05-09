@@ -7,7 +7,6 @@ body {
     font-weight:400;
 
     color: #CCCCCC;
-    #background: #1B37A8;
     background: #12246F;
 }
 
@@ -41,12 +40,30 @@ p {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-size: 1.7em;
+    justify-content: space-around;
+}
+
 .spin-image {
-    transition: transform 1s ease-in-out;
+    transition: transform .2s ease-in-out;
 }
 
 .spin-image:hover {
     transform: rotate(180deg);
+}
+
+.selected {
+   text-decoration: underline; 
+}
+
+.hidden {
+    display: none;
 }
 
 @media only screen and (max-width: 780px) {
