@@ -11,8 +11,8 @@ const tabSwitch = e => {
 
     s.classList.remove('selected');
     t.classList.add('selected');
-    document.querySelector(divId(s)).classList.add('hidden');
-    document.querySelector(divId(t)).classList.remove('hidden');
+    document.querySelector(divId(s)).classList.remove('show');
+    document.querySelector(divId(t)).classList.add('show');
 }
 
 const main = () => {
